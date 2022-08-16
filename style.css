@@ -19,6 +19,13 @@ a {
   background-color: #AFD275;
   border-color: #C1B9B0;
 }
+h4 a {
+	color: #7D685A;
+}
+h4 a:hover {
+	color: #E17A7D;
+	text-decoration: none;
+}
 .btn-primary:hover {
   color: #E7717D;
   background-color: #C1B9B0;
@@ -44,4 +51,13 @@ body {
 }
 .navbar-nav.mr-auto .nav-item .nav-link:hover {
 	color: #E7707E;
+}
+.carousel-item.active {
+	max-height: 10em;
+}
+.carousel-inner .carousel-item.active .d-block.mx-auto {
+	max-height: 10em;
+}
+.imgbg #carouselExampleIndicators1 .carousel-indicators {
+	max-height: 10em;
 }
