@@ -61,3 +61,12 @@ body {
 .imgbg #carouselExampleIndicators1 .carousel-indicators {
 	max-height: 10em;
 }
+.imglogo {
+	max-width: 12%;
+}
+.row .col-12.text-center p {
+}
+.imglogo2 {
+	max-width: 12%;
+	padding-top: 5em;
+}
