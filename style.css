@@ -5,6 +5,7 @@
 .jumbotron {
 	background-color: #7D685A;
 	color: #AFD275;
+	padding-top: 5em;
 }
 a {
 	color: #000000;
@@ -40,10 +41,10 @@ body {
 }
 .imgbg {
 	background-color: #FFFFFF;
-	border-width: thick;
-	border-color: #7D685A;
+	border: 2em solid #FFFFFF;
 	border-radius: 100px;
-}.navbar.navbar-expand-lg.navbar-dark .navbar-brand {
+}
+.navbar.navbar-expand-lg.navbar-dark .navbar-brand {
 	color: #E7707E;
 }
 .navbar-nav.mr-auto .nav-item.active .nav-link:hover {
@@ -63,10 +64,26 @@ body {
 }
 .imglogo {
 	max-width: 12%;
+	padding-top: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
 }
-.row .col-12.text-center p {
-}
+
+
 .imglogo2 {
 	max-width: 12%;
 	padding-top: 5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 2em;
+}
+h2 {
+	color: #AFD275;
+}
+.border-img {
+	border: 0.25em solid #C1B9B0;
+}
+.text-center.text-highlight {
+	color: #E17A7D;
 }
